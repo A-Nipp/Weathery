@@ -16,7 +16,7 @@ struct CityWeatherVM {
     let model: Weather
     
     
-    // MARK: Here's where you should add logic for different representations of the temperature in Fahrenheit, Celsius, etc.
+    // MARK: Here's where you should add logic for different representations of the temperature in Fahrenheit, Celsius, etc. You'll also want to make the methods for representing the other data (e.g., the weather icon)
     
     /// A getter that returns the formatted temperature, or "No temp" if no data is available. It's currently in Kelvin.
     var formattedCurrentTemp: String {

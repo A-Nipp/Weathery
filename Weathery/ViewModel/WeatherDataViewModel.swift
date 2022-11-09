@@ -7,10 +7,9 @@
 
 import Foundation
 
-class WeatherDataViewModel: ObservableObject {
+@MainActor class WeatherDataViewModel: ObservableObject {
     /// A list tracking weather data for all searched cities
     @Published var weatherData = [Weather]()
-    
     
     /**
      Gets the weather from the API for a particular city and appends the weather data to a list
